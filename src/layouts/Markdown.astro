@@ -1,0 +1,25 @@
+---
+import Layout from "./Layout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout>
+  <article>
+    {frontmatter.titulo && <h1>{frontmatter.titulo}</h1>}
+    {frontmatter.fecha && <time>{frontmatter.fecha}</time>}
+    <div>
+      <slot />
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  p {
+    font-size: 1.3rem;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+</style>

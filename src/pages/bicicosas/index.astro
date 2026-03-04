@@ -1,0 +1,54 @@
+---
+import Layout from "@layouts/Layout.astro";
+const biciCosas = await Astro.glob("./*.md");
+---
+
+<Layout>
+  <div class="posts-list">
+    {
+      [...biciCosas, ...biciCosas, ...biciCosas].map((cosa: any) => (
+        <article>
+          <a href={cosa.url}>
+            <h2>{cosa.frontmatter.title || cosa.url}</h2>
+            {cosa.frontmatter.date && (
+              <time>
+                {new Date(cosa.frontmatter.date).toLocaleDateString()}
+              </time>
+            )}
+            {cosa.frontmatter.description && (
+              <p>{cosa.frontmatter.description}</p>
+            )}
+          </a>
+        </article>
+      ))
+    }
+  </div>
+</Layout>
+
+<style>
+  .posts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #262949;
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 2px solid #262949;
+    position: relative;
+  }
+
+  a > h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  a > time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+</style>

@@ -1,41 +1,25 @@
 ---
-import mikasukaLogo from "../assets/logo.svg";
-import background from "../assets/background.svg";
-import "@fontsource-variable/fredoka";
+import mikasukaLogo from "@assets/logo.svg";
 ---
 
-<div id="container">
-  <img id="background" fetchpriority="high" />
-  <main>
-    <img
-      id="logo"
-      src={mikasukaLogo.src}
-      width="auto"
-      height="100"
-      alt="Logotipo de Mikasuka: Bicicosas"
-    />
-    <section></section>
-  </main>
+<div>
+  <img id="background" />
+  <img
+    id="logo"
+    src={mikasukaLogo.src}
+    width="auto"
+    height="100"
+    alt="Logotipo de Mikasuka: Bicicosas"
+  />
+  <section></section>
 </div>
 
 <style>
-  main {
-    max-width: 600px;
-    margin: auto;
-    padding: 2rem;
-  }
-
-  #container {
-    display: flex;
-    height: 100%;
-  }
-
   #logo {
     width: 100%;
   }
 
   section p {
-    font-family: "Fredoka Variable";
     line-height: 1.5rem;
   }
 
