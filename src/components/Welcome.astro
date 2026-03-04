@@ -1,20 +1,48 @@
 ---
 import mikasukaLogo from "@assets/logo.svg";
+import marujaMalloBike from "@assets/welcome.png";
 ---
 
-<div>
-  <img id="background" />
-  <img
-    id="logo"
-    src={mikasukaLogo.src}
-    width="auto"
-    height="100"
-    alt="Logotipo de Mikasuka: Bicicosas"
-  />
-  <section></section>
+<div class="welcome" style={`background-image: url(${marujaMalloBike.src})`}>
+  <a href="/bicicosas/hola" class="button cover">Ver la presentación</a>
+
+  <div class="logo-container">
+    <img
+      id="logo"
+      src={mikasukaLogo.src}
+      width="auto"
+      height="100"
+      alt="Logotipo de Mikasuka: Bicicosas"
+    />
+  </div>
 </div>
 
 <style>
+  .welcome {
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cover {
+    transform: rotate(5deg);
+  }
+
+  .intro {
+  }
+
+  .logo-container {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    bottom: -50px;
+  }
   #logo {
     width: 100%;
   }
