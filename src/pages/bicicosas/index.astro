@@ -6,7 +6,7 @@ const biciCosas = await Astro.glob("./*.md");
 <Layout>
   <div class="posts-list">
     {
-      [...biciCosas, ...biciCosas, ...biciCosas].map((cosa: any) => (
+      biciCosas.map((cosa: any) => (
         <article>
           <a href={cosa.url}>
             <h2>{cosa.frontmatter.title || cosa.url}</h2>
