@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/Markdown.astro
 title: ¡Hola! Esto es Mikasuka
-date: 2026-03-04
+date: 2026-03-04T20:30:00.0100
 description: Mikasuka, algo que hace cosas de bicis. O bicicosas
 thumbnail: "/bicicosas/hola-thumbnail.png"
 ---
