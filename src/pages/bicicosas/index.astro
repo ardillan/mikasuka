@@ -1,23 +1,29 @@
 ---
 import Layout from "@layouts/Layout.astro";
-const biciCosas = await Astro.glob("./*.md");
+import { getCollection } from "astro:content";
+const bicicosas = await getCollection("bicicosas");
+import { Image } from "astro:assets";
+import { formatDate } from "@helpers/format-date";
 ---
 
 <Layout>
   <div class="posts-list">
     {
-      biciCosas.map((cosa: any) => (
+      bicicosas.map((cosa) => (
         <article>
-          <a href={cosa.url}>
-            <h2>{cosa.frontmatter.title || cosa.url}</h2>
-            {cosa.frontmatter.date && (
-              <time>
-                {new Date(cosa.frontmatter.date).toLocaleDateString()}
-              </time>
+          <a href={`bicicosas/${cosa.id}`}>
+            <Image
+              class="thumbnail"
+              src={cosa.data.thumbnail}
+              alt="Imagen destacada"
+              width="300"
+              height="200"
+            />
+            <h2>{cosa.data.title}</h2>
+            {cosa.data.date && (
+              <time>{formatDate(cosa.data.date, "readable")}</time>
             )}
-            {cosa.frontmatter.description && (
-              <p>{cosa.frontmatter.description}</p>
-            )}
+            {cosa.data.description && <p>{cosa.data.description}</p>}
           </a>
         </article>
       ))
@@ -32,23 +38,33 @@ const biciCosas = await Astro.glob("./*.md");
     grid-gap: 1rem;
   }
 
+  .thumbnail {
+    object-fit: cover;
+  }
+
   a {
     text-decoration: none;
     color: #262949;
     display: block;
-    padding: 0.5rem 1rem;
-    border: 2px solid #262949;
+    padding: 1rem 1rem 1.5rem 1rem;
+    border: 9px double #ff92ca;
     position: relative;
+    background: white;
+    border-radius: 15px;
   }
 
   a > h2 {
     font-size: 2rem;
     font-weight: 500;
+    margin: 1rem 0 0 0;
   }
 
   a > time {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
+    font-size: 0.8rem;
+    color: #ff92ca;
+}
   }
 </style>

@@ -1,0 +1,75 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+import { Image } from "astro:assets";
+import { formatDate } from "@helpers/format-date";
+
+export async function getStaticPaths() {
+  const bicicosas = await getCollection("bicicosas");
+  return bicicosas.map((cosa) => ({
+    params: { id: cosa.id },
+    props: { cosa },
+  }));
+}
+
+const { cosa } = Astro.props;
+const { Content } = await render(cosa);
+---
+
+<Layout>
+  <article>
+    {
+      cosa.data.thumbnail && (
+        <Image
+          class="thumbnail"
+          width="400"
+          height="400"
+          src={cosa.data.thumbnail}
+          alt="Imagen destacada"
+        />
+      )
+    }
+    {cosa.data.date && <time>{formatDate(cosa.data.date, "readable")}</time>}
+
+    <Content />
+  </article>
+</Layout>
+
+<style is:global>
+  article {
+    margin: auto;
+    max-width: 500px;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  time {
+    color: #ffffff;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: -20px;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  .thumbnail {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 500px;
+    max-height: 200px;
+    margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+</style>

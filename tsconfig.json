@@ -5,11 +5,14 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
+    "strictNullChecks": true,
+    "allowJs": true,
     "paths": {
       "@components/*": ["./src/components/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@assets/*": ["./src/assets/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@styles/*": ["./src/styles/*"],
+      "@helpers/*": ["./src/helpers/*"]
     }
   }
 }
