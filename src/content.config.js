@@ -5,7 +5,6 @@ import { z } from "astro/zod";
 const bicicosas = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/bicicosas" }),
   schema: z.object({
-    layout: z.string(),
     title: z.string(),
     date: z.coerce.date(),
     description: z.string(),
