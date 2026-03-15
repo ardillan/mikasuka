@@ -13,6 +13,6 @@ Los que me conocen saben que mi obsesión por ir en bici y por la **movilidad** 
 
 Tengo muchos pájaros en la cabeza, muchas ideas y muchas ganas. La idea de todo esto es ir lento, sin prisa, y ver cómo las cosas fluyen con Mikasuka. Por el momento, ya hay algo en la recámara que se anunciará en los próximos días.
 
-Si te gusta esto y quieres saber mas, no dejes de ver por dónde rueda Mikasuka.
+Si te gusta esto y quieres saber más, no dejes de ver por dónde rueda Mikasuka.
 
 **[Ardi](https://mastodon.social/@ardillan)**.
