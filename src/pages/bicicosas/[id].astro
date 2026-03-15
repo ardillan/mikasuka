@@ -17,7 +17,7 @@ const { Content } = await render(cosa);
 ---
 
 <Layout>
-  <article>
+  <article class="bicicosa">
     {
       cosa.data.thumbnail && (
         <Image
@@ -31,27 +31,35 @@ const { Content } = await render(cosa);
     }
     {cosa.data.title && <h1>{cosa.data.title}</h1>}
     {cosa.data.date && <time>{formatDate(cosa.data.date, "readable")}</time>}
-
     <Content />
   </article>
 </Layout>
 
 <style is:global>
-  article {
+  article.bicicosa {
     margin: auto;
     max-width: 500px;
   }
 
-  p {
+  article.bicicosa > p {
     font-size: 1.3rem;
   }
 
-  h1 {
+  article.bicicosa > h1 {
     font-size: 3rem;
     text-align: center;
     line-height: 3rem;
     padding: 0;
     margin: 1rem 0;
+  }
+
+  article.bicicosa img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 
   time {
