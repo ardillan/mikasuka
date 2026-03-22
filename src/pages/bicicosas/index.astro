@@ -1,7 +1,9 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
-const bicicosas = await getCollection("bicicosas");
+const bicicosas = (await getCollection("bicicosas")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
 import { Image } from "astro:assets";
 import { formatDate } from "@helpers/format-date";
 ---
