@@ -29,7 +29,6 @@ const { Content } = await render(cosa);
         />
       )
     }
-    {cosa.data.title && <h1>{cosa.data.title}</h1>}
     {cosa.data.date && <time>{formatDate(cosa.data.date, "readable")}</time>}
     <Content />
   </article>
@@ -43,6 +42,17 @@ const { Content } = await render(cosa);
 
   article.bicicosa > p {
     font-size: 1.3rem;
+  }
+
+  article.bicicosa > h2 {
+    font-weight: 500;
+  }
+
+  hr {
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px dotted #ffffffb0;
+    border-left: none;
   }
 
   article.bicicosa > h1 {
