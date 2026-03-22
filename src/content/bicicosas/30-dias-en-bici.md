@@ -7,7 +7,7 @@ thumbnail: "/bicicosas/30-dias-en-bici-thumb.png"
 
 ## ¡Volvemos con 30 días en bici!
 
-Otra edición de 30 días en Bici, en Torrelavega. Hace tres años fue nuestra primera edición, hecha a contrareloj y sin que Mikasuka existiera del todo.
+Otra edición de 30 Días en Bici, en Torrelavega. Hace tres años fue nuestra primera edición, hecha a contrarreloj y sin que Mikasuka existiera del todo.
 
 Para esta ocasión hemos **preparado varias cosucas**. Para empezar, este es el cartel:
 
@@ -23,7 +23,7 @@ La cosa quedaría así:
 
 **Domingo 5 de abril, a las 11:00**
 
-Qué mejor una salida para empezar abril y los 30 días en bici. **Iremos hasta Suances** por la senda ciclable, tranquilamente, sin prisas y en bicicleta. Quedaremos a las 11:00 en la Llama.
+Qué mejor que una salida para empezar abril y los 30 Días en Bici. **Iremos hasta Suances** por la senda ciclable, tranquilamente, sin prisas y en bicicleta. Quedaremos a las 11:00 en La Llama.
 
 ---
 
@@ -31,7 +31,7 @@ Qué mejor una salida para empezar abril y los 30 días en bici. **Iremos hasta 
 
 **Miércoles 8 de abril**
 
-Recomendaremos un libro sobre bicicletas, tal como hicimos hace tres años. Hay muchos y nunca está demás saber qué llevar en tu alforja para esas paradas en mitad de un sendero.
+Recomendaremos un libro sobre bicicletas, tal como hicimos hace tres años. Hay muchos y nunca está de más saber qué llevar en tu alforja para esas paradas en mitad de un sendero.
 
 ---
 
@@ -39,7 +39,7 @@ Recomendaremos un libro sobre bicicletas, tal como hicimos hace tres años. Hay 
 
 **Sábado 11 de abril, a las 12:00. En la librería DLibros**
 
-Nuevamente, Adolfo nos abre sus puertas de su librería para poder realizar una charla. En esta ocasión será **Cantabria ConBici** con tu ponencia: "Cantabria necesita más bici". ¡Os esperamos allí a eso de las 12"
+Nuevamente, Adolfo nos abre las puertas de su librería para poder realizar una charla. En esta ocasión será **Cantabria ConBici** con su ponencia: "Cantabria necesita más bici". ¡Os esperamos allí a eso de las 12:00!
 
 ---
 
@@ -55,7 +55,7 @@ Porque las bicis pueden estar en cualquier lugar, incluso en la animación. Por 
 
 **Domingo 19 de abril**
 
-Coinciendo con el día de la bicicleta y con la calma que da un domingo. El Pub Anticuario nos abre sus puertas y nos dejará deleitarnos con Murder of couriers. Un documental que trata sobre la cultura de los repartidores en bicicleta en Vancouver.
+Coincidiendo con el Día de la Bicicleta y con la calma que da un domingo. El Pub Anticuario nos abre sus puertas y nos dejará deleitarnos con _Murder of Couriers_. Un documental que trata sobre la cultura de los repartidores en bicicleta en Vancouver.
 
 Será en versión original con subtítulos en castellano, a las 18:00.
 
@@ -73,11 +73,11 @@ Los videojuegos son otro medio de expresión. Por ello, no podemos dejar de lado
 
 **Sábado 25 de abril**
 
-No podemos dejar de lado la tradición ciclista de Torrelavega y mucho menos a nuestra querida Pulga. En esta ocasión daremos un paseo por la ciudad, quizá por la ronda, hasta llegarl Museo Vicente Trueba, en el complejo deportivo Óscar Freire.
+No podemos dejar de lado la tradición ciclista de Torrelavega y mucho menos a nuestra querida Pulga. En esta ocasión daremos un paseo por la ciudad, quizá por la ronda, hasta llegar al Museo Vicente Trueba, en el complejo deportivo Óscar Freire.
 
-Allí, Roberto Noriega nos abrirá las puertas al museo. Podremos rememorar quién fué Vicente y ver descubrir por qué es tan famoso en nuestra ciudad.
+Allí, Roberto Noriega nos abrirá las puertas del museo. Podremos rememorar quién fue Vicente y descubrir por qué es tan famoso en nuestra ciudad.
 
-Quedaremos a las 11 en la Llama.
+Quedaremos a las 11:00 en La Llama.
 
 ---
 
@@ -85,4 +85,4 @@ Quedaremos a las 11 en la Llama.
 
 **Miércoles 29 de abril**
 
-Recomendaremos otro libro sobre bicicletas para cerrar el mes. De esta manera, 30 días en bici podrá seguir en activo aunque abril haya terminado.
+Recomendaremos otro libro sobre bicicletas para cerrar el mes. De esta manera, 30 Días en Bici podrá seguir en activo aunque abril haya terminado.
