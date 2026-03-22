@@ -5,6 +5,8 @@ description: Cuando el guardabarros funciona mejor que el carbono.
 thumbnail: "/bicicosas/juventud-en-bicicleta-01.jpeg"
 ---
 
+# Juventud en bicicleta
+
 El otro día hemos rescatado esta serie de fotos.
 
 ![Una fotografía de un grupo de chicas posando con una bicicleta ](/bicicosas/juventud-en-bicicleta-01.jpeg)
