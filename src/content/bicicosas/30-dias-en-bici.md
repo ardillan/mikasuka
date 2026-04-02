@@ -2,7 +2,7 @@
 title: 30 días en Bici en Torrelavega
 date: 2026-03-22T21:00:00.0100
 description: Nueva edición de 30 días en bici en Torrelavega.
-thumbnail: "/bicicosas/30-dias-en-bici-thumb.png"
+thumbnail: "/bicicosas/30-dias-en-bici-thumb.webp"
 ---
 
 ## ¡Volvemos con 30 días en bici!
@@ -11,7 +11,7 @@ Otra edición de 30 Días en Bici, en Torrelavega. Hace tres años fue nuestra p
 
 Para esta ocasión hemos **preparado varias cosucas**. Para empezar, este es el cartel:
 
-![Una chica en una bicicleta](/bicicosas/30-dias-en-bici-01.jpg)
+![Una chica en una bicicleta](/bicicosas/30-dias-en-bici-01.webp)
 
 Durante todo el mes de abril iremos celebrando, cada semana, alguna salida, recomendando libros o asistiendo a charlas.
 

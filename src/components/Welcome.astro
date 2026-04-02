@@ -1,9 +1,8 @@
 ---
 import mikasukaLogo from "@assets/logo.svg";
-import marujaMalloBike from "@assets/welcome.png";
 ---
 
-<div class="welcome" style={`background-image: url(${marujaMalloBike.src})`}>
+<div class="welcome">
   <div class="logo-container">
     <img
       id="logo"
@@ -28,6 +27,7 @@ import marujaMalloBike from "@assets/welcome.png";
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("/bicicosas/intro.webp");
   }
 
   .intro {
@@ -51,6 +51,13 @@ import marujaMalloBike from "@assets/welcome.png";
     line-height: 1.5rem;
   }
 
-  @media screen and (max-height: 368px) {
+  @media (max-width: 768px) {
+    .welcome {
+      background-image: url(/bicicosas/intro-square.webp);
+      aspect-ratio: 1 / 1;
+      width: 100%;
+      background-size: cover;
+      height: auto;
+    }
   }
 </style>

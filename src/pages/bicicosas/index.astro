@@ -2,7 +2,7 @@
 import Layout from "@layouts/Layout.astro";
 import { getCollection } from "astro:content";
 const bicicosas = (await getCollection("bicicosas")).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
 );
 import { Image } from "astro:assets";
 import { formatDate } from "@helpers/format-date";
@@ -21,11 +21,13 @@ import { formatDate } from "@helpers/format-date";
               width="300"
               height="200"
             />
-            <h2>{cosa.data.title}</h2>
-            {cosa.data.date && (
-              <time>{formatDate(cosa.data.date, "readable")}</time>
-            )}
-            {cosa.data.description && <p>{cosa.data.description}</p>}
+            <div class="description">
+              <h2>{cosa.data.title}</h2>
+              {cosa.data.date && (
+                <time>{formatDate(cosa.data.date, "readable")}</time>
+              )}
+              {cosa.data.description && <p>{cosa.data.description}</p>}
+            </div>
           </a>
         </article>
       ))
@@ -43,33 +45,40 @@ import { formatDate } from "@helpers/format-date";
   .thumbnail {
     object-fit: cover;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
   }
 
   a {
     text-decoration: none;
     color: #262949;
     display: block;
-    padding: 1rem 1rem 1.5rem 1rem;
     border: 9px double #ff92ca;
     position: relative;
     background: white;
     border-radius: 15px;
+    transition: all 0.1s ease-in-out;
   }
 
-  a > h2 {
-    font-size: 2rem;
+  a:hover {
+    transform: scale(1.05);
+  }
+
+  .description {
+    padding: 3px 2rem 3rem;
+  }
+
+  .description > h2 {
+    font-size: 1.5rem;
     font-weight: 500;
     margin: 1rem 0 0 0;
   }
 
-  a > time {
+  .description > time {
     position: absolute;
     bottom: 10px;
     right: 10px;
     font-size: 0.8rem;
     color: #ff92ca;
-}
   }
 </style>
