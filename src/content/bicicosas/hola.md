@@ -5,6 +5,8 @@ description: Mikasuka, algo que hace cosas de bicis. O bicicosas
 thumbnail: "/bicicosas/hola-thumbnail.png"
 ---
 
+![Una fotografía de un grupo de chicas posando con una bicicleta ](/bicicosas/hola-thumbnail.png)
+
 ## ¿Qué tal?
 
 Esto es Mikasuka, una iniciativa que todavía no tiene muy claro qué significa, qué hace o para qué sirve. Hace semanas (más bien meses) que llevo dándole vueltas a la cabeza para crear "algo" que tenga relación con las bicicletas.

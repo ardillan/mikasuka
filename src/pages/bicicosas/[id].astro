@@ -18,19 +18,12 @@ const { Content } = await render(cosa);
 
 <Layout>
   <article class="bicicosa">
+    <Content />
     {
-      cosa.data.thumbnail && (
-        <Image
-          class="thumbnail"
-          width="400"
-          height="400"
-          src={cosa.data.thumbnail}
-          alt="Imagen destacada"
-        />
+      cosa.data.date && (
+        <time>Escrito el {formatDate(cosa.data.date, "readable")}</time>
       )
     }
-    {cosa.data.date && <time>{formatDate(cosa.data.date, "readable")}</time>}
-    <Content />
   </article>
 </Layout>
 
@@ -57,7 +50,6 @@ const { Content } = await render(cosa);
 
   article.bicicosa > h1 {
     font-size: 3rem;
-    text-align: center;
     line-height: 3rem;
     padding: 0;
     margin: 1rem 0;
@@ -76,8 +68,8 @@ const { Content } = await render(cosa);
     color: #ffffffc2;
     position: relative;
     width: 100%;
-    text-align: center;
     display: block;
+    text-align: right;
   }
 
   strong {
