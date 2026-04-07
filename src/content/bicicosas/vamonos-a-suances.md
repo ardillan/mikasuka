@@ -7,11 +7,11 @@ thumbnail: "/bicicosas/vamonos-a-suances.webp"
 
 ## A Suances, nin
 
-![Una fotografía de un grupo de chicas posando con una bicicleta ](/bicicosas/vamonos-a-suances.webp)
+![Una fotografía de una persona posando frente a un atardecer. Es idílico y se ve una bicicleta](/bicicosas/vamonos-a-suances.webp)
 
 ¡Menudo frío! Hay algo que quedó demostrado el pasado domingo día 5 a pesar del día y las nubes: **querer es poder**. Y es que está demostrado que no hace falta nada mas que ganas y un poco de abrigo para disfrutar del día.
 
-Bajo la intensa claridad de un día nublado y gracias a la iniciativa de **30 días en bici** pudimos reunir a un grupo de 15 personas dispuestas a pedalear. Fuimos hasta Suances de una manera tranquila, a través de la senda ciclable y sin ninguna prisa.
+Bajo la intensa claridad de un día nublado y gracias a la iniciativa de **30 días en bici** pudimos reunir a un grupo de unas 15 personas dispuestas a pedalear. Fuimos hasta Suances de una manera tranquila, a través de la senda ciclable y sin ninguna prisa.
 
 ¿Frío? No hay problema. Al fin y al cabo somos del norte. ⛰️🚲
 
