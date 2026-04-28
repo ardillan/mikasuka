@@ -1,7 +1,7 @@
 ---
 title: La bicicleta abandonada
 date: 2026-04-28T16:30:00.0100
-description: La Vuelta a España a través de los ojos de Kitarō Kōsaka.
+description: Félix no deja de pensar quién habrá dejado ahí esa bicicleta.
 thumbnail: "/bicicosas/la-bicicleta-abandonada-01.webp"
 ---
 
