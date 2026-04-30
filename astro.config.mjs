@@ -30,14 +30,14 @@ export default defineConfig({
             weight: "700",
             style: "italic",
             src: [
-              "./src/assets/fonts/fivo-sans/FivoSansModern-ExtBlack-Oblique.otf",
+              "./src/assets/fonts/fivo-sans/FivoSansModern-ExtBlkObliq.woff2",
             ],
           },
           {
             weight: "500",
             style: "italic",
             src: [
-              "./src/assets/fonts/fivo-sans/FivoSansModern-Medium-Oblique.otf",
+              "./src/assets/fonts/fivo-sans/FivoSansModern-MediumOblique.woff2",
             ],
           },
         ],
