@@ -2,6 +2,7 @@
 import Footer from "@components/Footer.astro";
 import Navigation from "@components/Navigation.astro";
 import GlobalStyle from "@styles/Common.astro";
+import { Font } from "astro:assets";
 ---
 
 <!doctype html>
@@ -13,6 +14,8 @@ import GlobalStyle from "@styles/Common.astro";
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
     <title>Mikasuka | Bicicosas</title>
+    <Font cssVariable="--font-fredoka" />
+    <Font cssVariable="--font-fivoSans" />
   </head>
   <body>
     <GlobalStyle />

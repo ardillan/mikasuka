@@ -1,4 +1,9 @@
+---
+import mikasukaImagotipo from "@assets/imagotipo.svg";
+---
+
 <footer>
+  <a href="/"><img width="50" src={mikasukaImagotipo.src} /></a>
   <p>
     Web hecha con <a href="https://astro.build/">Astro</a>
     <br />desde la verde y gris Torrelavega
@@ -14,5 +19,11 @@
 
   footer > p {
     font-size: 1rem;
+    font-weight: 400;
+    margin: 0.4rem auto 4rem;
+  }
+
+  footer > p > a {
+    color: rgb(var(--blue-navy));
   }
 </style>

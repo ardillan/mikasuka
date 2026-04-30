@@ -1,7 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import { getCollection, render } from "astro:content";
-import { Image } from "astro:assets";
 import { formatDate } from "@helpers/format-date";
 
 export async function getStaticPaths() {
@@ -18,23 +17,54 @@ const { Content } = await render(cosa);
 
 <Layout>
   <article class="bicicosa">
-    <Content />
+    <h1>{cosa.data.title}</h1>
+    <h2>{cosa.data.description}</h2>
     {
       cosa.data.date && (
         <time>Escrito el {formatDate(cosa.data.date, "readable")}</time>
       )
     }
+    <Content />
   </article>
 </Layout>
 
 <style is:global>
   article.bicicosa {
-    margin: auto;
+    margin: 0 auto 3rem;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  article.bicicosa > h1 {
+    font-family: var(--font-fivoSans);
+    font-style: italic;
+    font-size: 4rem;
+    line-height: 3.4rem;
+    margin: 1rem 0 0 0;
+    max-width: 500px;
+  }
+
+  article.bicicosa > h2 {
+    margin: 0.5rem 0 1rem;
+    color: rgb(var(--pink-panther));
+    font-family: var(--font-fivoSans);
+    font-style: italic;
     max-width: 500px;
   }
 
   article.bicicosa > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  article.bicicosa > p > a {
+    color: rgb(var(--blue-navy));
+    text-decoration: none;
+    background: #ffec70a1;
+  }
+
+  article.bicicosa > p > a:hover {
+    background: #ffec70;
   }
 
   article.bicicosa > h2 {
@@ -48,28 +78,21 @@ const { Content } = await render(cosa);
     border-left: none;
   }
 
-  article.bicicosa > h1 {
-    font-size: 3rem;
-    line-height: 3rem;
-    padding: 0;
-    margin: 1rem 0;
-  }
-
   article.bicicosa img {
     object-fit: cover;
     border-radius: 10px;
-    width: 100%;
+    width: 600px;
     height: auto;
-    margin-left: 0px;
+    margin-left: -50px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 
   time {
-    color: #ffffffc2;
     position: relative;
     width: 100%;
     display: block;
-    text-align: right;
+    color: rgba(var(--blue-navy), 0.6);
+    margin-bottom: 2rem;
   }
 
   strong {
@@ -83,5 +106,21 @@ const { Content } = await render(cosa);
     max-height: 200px;
     margin-left: 0px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  @media (max-width: 768px) {
+    article.bicicosa > h1 {
+      font-size: 2.3rem;
+      line-height: 2.3rem;
+    }
+
+    article.bicicosa > h2 {
+      font-size: 1.2rem;
+    }
+
+    article.bicicosa img {
+      margin: initial;
+      width: 100%;
+    }
   }
 </style>

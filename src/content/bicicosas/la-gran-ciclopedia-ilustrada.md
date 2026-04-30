@@ -5,8 +5,6 @@ description: Un libro de Karin Du Croo sobre bicicletas con mucha ironía.
 thumbnail: "/bicicosas/la-gran-ciclopedia-ilustrada-01.webp"
 ---
 
-# La gran ciclopedia ilustrada
-
 Un libro de bicicletas, culotes, cadenas, alforjas, maillots y más cosas a través de los ojos y las manos de **Karin Du Croo**.
 
 Publicado por [Libros del Zorro Rojo](https://librosdelzorrorojo.com/catalogo/la-gran-ciclopedia-ilustrada/) en 2023, con un total de 178 páginas y en una edición _Cartoné_ muy bonita.

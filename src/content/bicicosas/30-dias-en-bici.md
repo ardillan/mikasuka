@@ -5,8 +5,6 @@ description: Nueva edición de 30 días en bici en Torrelavega.
 thumbnail: "/bicicosas/30-dias-en-bici-thumb.webp"
 ---
 
-## ¡Volvemos con 30 días en bici!
-
 Otra edición de 30 Días en Bici, en Torrelavega. Hace tres años fue nuestra primera edición, hecha a contrarreloj y sin que Mikasuka existiera del todo.
 
 Para esta ocasión hemos **preparado varias cosucas**. Para empezar, este es el cartel:

@@ -5,7 +5,7 @@ description: Bicicletas por la isla de Penfurzy
 thumbnail: "/bicicosas/knights-and-bikes-00.webp"
 ---
 
-<video src="/bicicosas/knights-and-bikes-01.mp4" style="width: 100%;border-radius: 15px;" controls autoplay="false">
+<video src="/bicicosas/knights-and-bikes-01.mp4" style="width: 100%;border-radius: 15px;" controls >
 Tu navegador no admite el elemento <code>video</code>.
 </video>
 
@@ -21,6 +21,6 @@ Un título que nos permitirá ver cómo la imaginación desbordante de unas niñ
 
 Un juego creado por el estudio británico [Foam Sword Games](http://foamswordgames.com) y publicado por [Double Fine](https://www.doublefine.com/games/knights-and-bikes). Además, cuenta con el arte de [Rex Crowle](https://rexcrowle.com/gallery) (¿os acordáis de Monkey Island?) y la música de Daniel Pemberton.
 
-<video src="/bicicosas/knights-and-bikes-02.mp4" style="width: 100%;border-radius: 15px;" controls autoplay="false">
+<video src="/bicicosas/knights-and-bikes-02.mp4" style="width: 100%;border-radius: 15px;" controls >
 Tu navegador no admite el elemento <code>video</code>.
 </video>
