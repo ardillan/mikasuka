@@ -7,8 +7,6 @@ thumbnail: "/bicicosas/la-bicicleta-abandonada-01.webp"
 
 ![Portada de libro "La bicicleta abandonada"](/bicicosas/la-bicicleta-abandonada-01.webp)
 
-## Félix y su obsesión por una bicicleta
-
 Y es normal. Félix pasa, como cada día de camino al colegio, por delante de esa **bicicleta atada a una farola**. No sabe de quién es, por qué está ahí ni qué va a suceder con ella. Cada vez imagina una historia diferente para entender ese sinsentido que es el abandonar una bicicleta en la calle, a su suerte. Algo que él jamás haría.
 
 ![Interior del libro "La bicicleta abandonada". Es un montaje con un muñeco de Playmobil](/bicicosas/la-bicicleta-abandonada-02.webp)

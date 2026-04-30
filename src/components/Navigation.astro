@@ -3,7 +3,7 @@ import mikasukaImagotipo from "@assets/imagotipo.svg";
 ---
 
 <header>
-  <a href="/"><img width="50" src={mikasukaImagotipo.src} /></a>
+  <a href="/"><img width="75" src={mikasukaImagotipo.src} /></a>
   <ul>
     <li><a href="/bicicosas">Bicicosas</a></li>
   </ul>
@@ -16,7 +16,7 @@ import mikasukaImagotipo from "@assets/imagotipo.svg";
     justify-content: space-between;
     margin: auto;
     max-height: 150px;
-    max-width: 700px;
+    max-width: 900px;
     min-height: 150px;
     width: 100%;
   }
@@ -30,9 +30,12 @@ import mikasukaImagotipo from "@assets/imagotipo.svg";
     text-decoration: none;
     font-weight: 400;
     margin-left: 1rem;
+    font-family: var(--font-fivoSans);
+    color: var(--blue-navy);
+    font-size: 1.2rem;
   }
 
   ul > li > a:hover {
-    color: #272a49;
+    color: rgb(var(--pink-panther));
   }
 </style>

@@ -5,9 +5,9 @@ description: Primer día de 30 días en Bici donde disfrutamos de una salida has
 thumbnail: "/bicicosas/vamonos-a-suances.webp"
 ---
 
-## A Suances, nin
-
 ![Una fotografía de una persona posando frente a un atardecer. Es idílico y se ve una bicicleta](/bicicosas/vamonos-a-suances.webp)
+
+## A Suances, nin
 
 ¡Menudo frío! Hay algo que quedó demostrado el pasado domingo día 5 a pesar del día y las nubes: **querer es poder**. Y es que está demostrado que no hace falta nada mas que ganas y un poco de abrigo para disfrutar del día.
 

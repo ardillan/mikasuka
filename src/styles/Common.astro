@@ -1,23 +1,27 @@
----
-import "@fontsource-variable/fredoka";
----
-
 <style is:global>
-  html,
+  :root {
+    --pink-panther: 255, 112, 186;
+    --white-ghost: 248, 248, 248;
+    --blue-navy: 39, 42, 73;
+  }
+
+  html {
+    border-top: 8px solid rgb(var(--pink-panther));
+  }
   body {
     margin: auto;
-    width: calc(100% - 1rem);
+    width: calc(100% - 3rem);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #ff93ca;
+    background: rgb(var(--white-ghost));
   }
 
   main {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 900px;
     width: 100%;
     margin: auto;
   }
@@ -29,23 +33,23 @@ import "@fontsource-variable/fredoka";
   h4,
   h6,
   time {
-    font-family: "Fredoka Variable";
-    color: #272a49;
+    font-family: var(--font-fredoka), sans-serif;
+    color: rgba(var(--blue-navy), 1);
   }
 
   a {
-    font-family: "Fredoka Variable";
+    font-family: var(--font-fredoka);
     color: #844063;
   }
 
   .button {
-    background: #fe4695;
+    background: rgba(var(--pink-panther), 1);
     padding: 0.5rem 2rem;
     border-radius: 50px;
-    border: 7px double #ff94ca;
+    border: 7px double rgba(var(--white-ghost), 1);
     text-decoration: none;
     font-size: 0.8rem;
-    color: #ffffff;
+    color: rgb(var(--white-ghost));
     text-transform: uppercase;
     font-weight: 500;
   }
