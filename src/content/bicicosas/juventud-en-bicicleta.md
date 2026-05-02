@@ -5,13 +5,9 @@ description: Cuando el guardabarros funciona mejor que el carbono.
 thumbnail: "/bicicosas/juventud-en-bicicleta-01.webp"
 ---
 
-# Juventud en bicicleta
-
-El otro día hemos rescatado esta serie de fotos.
+El otro día hemos rescatado esta serie de fotos. En ellas se muestra un triunvirato invencible: bicicleta, sol y amigas. La combinación perfecta.
 
 ![Una fotografía de un grupo de chicas posando con una bicicleta ](/bicicosas/juventud-en-bicicleta-01.webp)
-
-En ellas se muestra un triunvirato invencible: bicicleta, sol y amigas. La combinación perfecta.
 
 No sabemos quiénes son, dónde iban y qué hacían. Tampoco sabemos en qué año fueron tomadas ni mucho menos en qué lugar.
 

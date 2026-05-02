@@ -5,7 +5,7 @@ description: La Vuelta a España a través de los ojos de Kitarō Kōsaka.
 thumbnail: "/bicicosas/andalusia-no-natsu.webp"
 ---
 
-<video src="/bicicosas/andalusia-no-natsu-01.mp4" style="width: 100%;border-radius: 15px;" controls autoplay="false">
+<video src="/bicicosas/andalusia-no-natsu-01.mp4" style="width: 100%;border-radius: 15px;" controls >
 Tu navegador no admite el elemento <code>video</code>.
 </video>
 

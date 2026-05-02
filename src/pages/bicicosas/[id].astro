@@ -57,18 +57,32 @@ const { Content } = await render(cosa);
     line-height: 1.7rem;
   }
 
-  article.bicicosa > p > a {
+  article.bicicosa > p > a,
+  article.bicicosa > p strong > a {
     color: rgb(var(--blue-navy));
     text-decoration: none;
     background: #ffec70a1;
   }
 
-  article.bicicosa > p > a:hover {
+  article.bicicosa > p > a:hover,
+  article.bicicosa > p strong > a:hover {
     background: #ffec70;
   }
 
   article.bicicosa > h2 {
     font-weight: 500;
+  }
+
+  article.bicicosa > div > iframe {
+    border-radius: 10px;
+    outline: 3px solid rgb(var(--pink-panther));
+    outline-offset: 2px;
+    transition: all 0.1s;
+  }
+
+  article.bicicosa > div > iframe:hover {
+    outline-offset: 5px;
+    transform: scale(103%);
   }
 
   hr {
@@ -92,7 +106,7 @@ const { Content } = await render(cosa);
     width: 100%;
     display: block;
     color: rgba(var(--blue-navy), 0.6);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   strong {
